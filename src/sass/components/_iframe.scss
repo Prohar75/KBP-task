@@ -1,0 +1,15 @@
+@use "../abstract/" as *;
+.main-frame
+{
+    width: 530px;
+    height: 625px;
+    margin: 0px 0px 0px 13px;
+    border: 2px $dimgray solid;
+    background-color: $gray;
+    padding: 20px;
+}
+.mini
+{
+    width: 520px;
+    height: 530px;
+}
