@@ -1,0 +1,6 @@
+@use "../abstract/" as *;
+input
+{
+    margin: 20px;
+    border: 3px $dimgreen solid;
+}

@@ -1,1 +1,22 @@
- 
+@use "../abstract/" as *;
+
+button
+{
+    background-color: white;
+    border: 3px dimgray solid;
+}
+.navigation
+{
+    margin: 20px 0px 0px 50px;
+    width: 500px;
+
+}
+
+.navigation button
+{
+    margin: 10px;
+    background-color: $dimgreen;
+    color: white;
+    padding: 10px 20px;
+    border: 0px;
+}

@@ -9,21 +9,22 @@
 		<meta charset="UTF-8">
 	</head> 
 	<body> 
-		<ul class="buttons-list">
-			<li class="buttons-list-option"><button class="buttons-list-option_button">
-				Упражнения
-			</button></li>
-			<li class="buttons-list-option"><button class="buttons-list-option_button">
-				В потоке
-			</button></li>
-			<li class="buttons-list-option"><button class="buttons-list-option_button">
+		<div class="navigation">
+			<button class="library" onclick="LibraryPage()">
 				Библиотека
-			</button></li>
-		</ul>
-		<div class="page-content">
-			<iframe class="tasks-frame" src="./tasks.html" frameborder="0"></iframe>
-			<iframe class="library-frame" src="./library.html" frameborder="0"></iframe>
-			<iframe class="library-frame" src="./potok.html" frameborder="0"></iframe>
+			</button>
+			<button class="tasks" onclick="TasksPage()">
+				Упражнения
+			</button>
+			<button class="thread"onclick="ThreadPage()">
+				В потоке
+			</button>
 		</div>
+		<div class="page-content">
+			<iframe class="tasks-frame mini" id="tasks-frame" src="./tasks.html" frameborder="0"></iframe>
+			<iframe class="library-frame mini" id="library-frame" src="./library.html" frameborder="0" style="display: none;"></iframe>
+			<iframe class="potok-frame mini" id="potok-frame" src="./potok.html" frameborder="0" style="display: none;"></iframe>
+		</div>
+		<script src="./js/index.js"></script>
 	</body> 
 </html> 
