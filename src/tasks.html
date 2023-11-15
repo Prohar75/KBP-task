@@ -9,7 +9,15 @@
 		<meta charset="UTF-8">
 	</head> 
 	<body> 
-		<div class="block">
+		<div class="navigation">
+			<button class="library" onclick="FirstPage()">
+				Упражнения 1
+			</button>
+			<button class="tasks" onclick="SecondPage()">
+				Упражнения 2
+			</button>
+		</div>
+		<div class="block block-1" id="block-1">
 			<h2>Аналитическое мышление</h2>
 			<img class="image-task" src="./assets/image1.png" alt="image1">
 			<input class="default-input task-1" type="text">
@@ -92,7 +100,7 @@
 			<span id="task-16-answer"></span>
 			
 		</div>
-		<div class="block">
+		<div class="block block-2" id="block-2" style="display: none;">
 			<h2>Практические задания</h2>
 			<div class="condition-of-task">Ситуация 1. Заказчик за 30 часов до начала отгрузки передал заявку по
 				установленной форме. Перевозчик отказался выполнять заявку. Правомерны ли

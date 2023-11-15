@@ -1,4 +1,5 @@
-
+let block1 = document.getElementById("block-1");
+let block2 = document.getElementById("block-2");
 
 document.getElementById("task-1-button").onclick =  function()
 {
@@ -66,6 +67,20 @@ document.getElementById("task-16-button").onclick =  function()
 {
     document.getElementById("task-16-answer").innerText = "паллета";
 }
+
+function FirstPage()
+{
+    block1.style.display = "inline";
+    block2.style.display = "none";
+}
+function SecondPage()
+{
+    block1.style.display = "none";
+    block2.style.display = "inline";
+}
+
+
+
 /*document.getElementById("task-17-button").onclick =  function()
 {
     document.getElementById("task-17-answer").innerText = "упаковка";

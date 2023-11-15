@@ -1,15 +1,16 @@
 @use "../abstract/" as *;
 .main-frame
 {
-    width: 530px;
-    height: 625px;
+    width: 730px;
     margin: 0px 0px 0px 13px;
+    height: 3800px;
     border: 2px $dimgray solid;
     background-color: $gray;
     padding: 20px;
 }
 .mini
 {
-    width: 520px;
-    height: 530px;
+    width: 720px;
+    height: 3700px;
+
 }
